@@ -79,7 +79,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   str = String.new
     holiday_hash.each do |season, holiday|
-<<<<<<< HEAD
+
       str << "#{season.capitalize}:\n"
       holiday.each do |holiday, stuff|
           array_holiday_words = holiday.to_s.split("_")
@@ -112,7 +112,6 @@ def all_holidays_with_bbq(holiday_hash)
 end
 
 
-=======
       str << "#{season.capitalize}: "
       holiday.each do |holiday, stuff|
         array_holiday_words = holiday.to_s.split("_")
