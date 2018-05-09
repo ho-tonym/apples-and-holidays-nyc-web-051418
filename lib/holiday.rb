@@ -133,8 +133,6 @@ def all_holidays_with_bbq(holiday_hash)
 
 end
 
-
->>>>>>> 4474876e5bd4ab7532a6b172cd723c1c7ba06429
 holiday_hash =    {
      :winter => {
        :christmas => ["Lights", "Wreath"],
@@ -152,4 +150,3 @@ holiday_hash =    {
    }
 
 all_supplies_in_holidays(holiday_hash)
-
