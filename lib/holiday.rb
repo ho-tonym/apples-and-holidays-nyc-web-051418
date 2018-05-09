@@ -150,7 +150,6 @@ holiday_hash =    {
        :memorial_day => ["BBQ"]
      }
    }
-<<<<<<< HEAD
-=======
+
 all_supplies_in_holidays(holiday_hash)
->>>>>>> 4474876e5bd4ab7532a6b172cd723c1c7ba06429
+
